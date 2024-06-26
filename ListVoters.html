@@ -132,8 +132,8 @@ button {
 </head>
 <body>
     <div class = "navbar">
-        <a href="/index.html">Vote</a>
-        <a href="/ListVoters.html">Daftar Pasangan Calon</a>
+        <a href="/index.html">Pemilihan</a>
+        <a href="/ListVoters.html">Daftar Pasangan</a>
     </div>
 
     <div>
@@ -144,8 +144,8 @@ button {
     <div class="container">
         <form method="POST" action="/vote" enctype="multipart/form-data">
             <span>Tambah Daftar Pasangan Calon</span>
-            <input type = "text" name ="vote" placeholder="Add name of candidate ... ">
-            <input type="submit" value = "Add Candidate">
+            <input type = "text" name ="vote" placeholder="Tambahkan nama pasangan calon">
+            <input type="submit" value = "Tambahkan nama">
         </form>
     </div>
 
@@ -154,7 +154,7 @@ button {
     </div>
 
     <div>
-        <button onclick="getAllCandidates()">Daftar Nama Calon Gubernur dan Wakil Gubernur</button>
+        <button onclick="getAllCandidates()">Daftar Nama Calon Putra dan Putri Pariwisata</button>
         <p id="p3"></p>
     </div>
 
@@ -163,7 +163,7 @@ button {
             <thead>
                 <tr>
                     <th>No. Urut</th>
-                    <th>Nama Calon Gubernur dan Wakil Gubernur</th>
+                    <th>Nama Calon Putra dan Putri Pariwisata</th>
                     <th>Perolehan Suara</th>
                 </tr>
             </thead>
